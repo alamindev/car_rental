@@ -1,0 +1,203 @@
+@media only screen and (max-width: 575px) {
+    /* coding for top header */
+    .top-header .contact {
+        display: flex !important;
+        justify-content: center;
+    }
+    .top-header .social {
+        display: flex !important;
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar-brand img {
+        width: 90px;
+    }
+    /* coding for slider */
+    .slider .slider-main .item .book_now h1, .slider .slider-main .item .book_now h2 {
+        font-size: 16px;
+        padding: 0
+    }
+    .slider .slider-img img {
+        padding-right: 70px;
+        display: none;
+    }
+    .slider .slider-main .item .title h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .slider .slider-main .item .title h5 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .book_now {
+        margin-left: 30%;
+        width: 100%;
+    }
+    /* coding for search by model */
+    .form_for_book {
+        margin-top: 60px;
+    }
+    .form_for_book .button {
+        margin-top: 35px;
+    }
+    .custom-select {
+        margin-top: 38px;
+    }
+    /* start coding for trusted area*/
+    .trust_area {
+        background: #F7F7F7;
+        text-align: center;
+    }
+    /* for service area */
+    .service_area .service_main {
+        text-align: center !important;
+    }
+    /* start coding for choose us section */
+    .choose_us {
+        text-align: center;
+    }
+    .choose_us .choose p {
+        padding-right: 0px;
+    }
+    /* start coding for footer area */
+    .footer_area {
+        background: #1F1F1F;
+        text-align: center;
+    }
+    .footer_area .address, .phone, .email {
+        margin-left: 0px;
+    }
+    .footer_area .address i, .phone i, .email i {
+        margin-bottom: 27px;
+    }
+    .footer_area .about_us .social_footer {
+        justify-content: center;
+    }
+    .footer_area .copyright .trm_and_condition {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    /* coding for slider */
+    .slider .slider-main .item .book_now h1, .slider .slider-main .item .book_now h2 {
+        font-size: 26px;
+        padding: 0
+    }
+    .slider .slider-img img {
+        padding-right: 70px;
+    }
+    .slider .slider-main .item .title h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .slider .slider-main .item .title h5 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .book_now {
+        margin-left: 20%;
+        width: 100%;
+    }
+    /* coding for search by model */
+    .form_for_book {
+        margin-top: 60px;
+    }
+    .form_for_book .button {
+        margin-top: 35px;
+    }
+    .custom-select {
+        margin-top: 38px;
+    }
+    /* start coding for trusted area*/
+    .trust_area {
+        background: #F7F7F7;
+        text-align: center;
+    }
+    /* for service area */
+    .service_area .service_main {
+        text-align: center !important;
+    }
+    /* start coding for choose us section */
+    .choose_us {
+        text-align: center;
+    }
+    .choose_us .choose p {
+        padding-right: 0px;
+    }
+    /* start coding for footer area */
+    .footer_area {
+        background: #1F1F1F;
+        text-align: center;
+    }
+    .footer_area .address, .phone, .email {
+        margin-left: 0px;
+    }
+    .footer_area .address i, .phone i, .email i {
+        margin-bottom: 27px;
+    }
+    .footer_area .about_us .social_footer {
+        justify-content: center;
+    }
+    .footer_area .copyright .trm_and_condition {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* coding for slider */
+    .slider .slider-main .item .book_now h1, .slider .slider-main .item .book_now h2 {
+        font-size: 26px;
+        padding: 0
+    }
+    .slider .slider-img img {
+        padding-right: 70px;
+    }
+    .slider .slider-main .item .title h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .slider .slider-main .item .title h5 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .book_now {
+        margin-left: 20%;
+        width: 100%;
+    }
+    /* coding for search by model */
+    .form_for_book {
+        margin-top: -30px;
+    }
+    .form_for_book .button {
+        margin-top: 35px;
+    }
+    .custom-select {
+        margin-top: 38px;
+    }
+    /* for service area */
+    .service_area .service_main {
+        text-align: center !important;
+    }
+    /* start coding for choose us section */
+    .choose_us {
+        text-align: center;
+    }
+    .choose_us .choose p {
+        padding-right: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {}
